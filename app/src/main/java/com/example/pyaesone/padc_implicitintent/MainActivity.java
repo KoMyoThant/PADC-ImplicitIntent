@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findViewsByID() {
-        sharingWithShareCompatBtn = (Button) findViewById(R.id.btn_sharing_with_share_compat);
-        navOnMapBtn = (Button) findViewById(R.id.btn_nav_on_map);
-        phCallBtn = (Button) findViewById(R.id.btn_ph_call);
-        sendEmailBtn = (Button) findViewById(R.id.btn_send_email);
-        cameraBtn = (Button) findViewById(R.id.btn_camera);
-        selectImgBtn = (Button) findViewById(R.id.btn_select_img);
-        eventOnCalendarBtn = (Button) findViewById(R.id.btn_calendar_event);
+        sharingWithShareCompatBtn = findViewById(R.id.btn_sharing_with_share_compat);
+        navOnMapBtn = findViewById(R.id.btn_nav_on_map);
+        phCallBtn = findViewById(R.id.btn_ph_call);
+        sendEmailBtn = findViewById(R.id.btn_send_email);
+        cameraBtn = findViewById(R.id.btn_camera);
+        selectImgBtn = findViewById(R.id.btn_select_img);
+        eventOnCalendarBtn = findViewById(R.id.btn_calendar_event);
     }
 
     private void implicitIntentSamples() {
