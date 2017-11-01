@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PADC-ImplicitIntent</string>
+
+    <string name="sharing_with_share_compat">Sharing with ShareCompat</string>
+    <string name="nav_on_map">Navigation on Map</string>
+    <string name="ph_call">Making Phone Call</string>
+    <string name="send_email">Sending Email</string>
+    <string name="camera">Taking Picture with Camera</string>
+    <string name="select_img">Select Picture</string>
+    <string name="calendar_event">Event on Calendar</string>
 </resources>
